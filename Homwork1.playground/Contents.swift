@@ -34,3 +34,42 @@ print("Coin 1    = \(Coin1)")
 print("***********************")
 
 
+var numberEven = 5
+print("Number is \(numberEven)")
+if(numberEven%2==0)
+{
+    print("เลขคู่")
+    print("ถ้าลดค่าไป 1 ")
+    numberEven=numberEven-1
+    if numberEven%3 == 0 && numberEven%5 == 0
+    {
+     print("หาร3และ5ลงตัว")
+    }
+    else if numberEven%3 == 0 && numberEven%5 != 0
+    {
+        print("หาร3ลงตัวแต่หาร5ไม่ลงตัว")
+    }
+    else if numberEven%3 != 0 && numberEven%5 == 0
+    {
+        print("หาร3ไม่ลงตัวแต่หาร5ลงตัว")
+    }
+}
+else if numberEven%2 != 0
+{
+    print("เลขคี่")
+    print("ถ้าเพิ่มค่าไป 1 ")
+    numberEven+=1
+    if numberEven%2 == 0 && numberEven % 6 == 0
+    {
+        print("หาร2และ6ลงตัว")
+    }
+    else if numberEven%2 == 0 && numberEven % 6 != 0
+    {
+        print("หาร2ลงตัวแต่หาร6ไม่ลงตัว")
+    }
+    else if numberEven%2 != 0 && numberEven%6 == 0
+    {
+        print("หาร2ไม่ลงตัวแต่หาร6ลงตัว")
+    }
+}
+
