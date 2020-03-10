@@ -81,3 +81,25 @@ for i in 1...12
         print("\(i) * \(num) = \(i*num)")
     }
 }
+
+print("ข้อ5")
+var primeNum=2
+while primeNum < 100000
+{
+    var I = 2
+    while I<=primeNum/I
+    {
+        if primeNum%I == 0
+        {
+            break
+        }
+        I+=1
+    }
+    if I>primeNum/I
+    {
+        print(primeNum)
+    }
+    primeNum+=1
+}
+
+
