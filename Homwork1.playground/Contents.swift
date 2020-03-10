@@ -73,3 +73,11 @@ else if numberEven%2 != 0
     }
 }
 
+var num = 1
+for i in 1...12
+{
+    for num in 1...12
+    {
+        print("\(i) * \(num) = \(i*num)")
+    }
+}
