@@ -1,6 +1,6 @@
 import UIKit
 
-var number1:Double=5
+/*var number1:Double=5
 var number2:Double=4
 
 var summary:Double = number1 + number2
@@ -80,9 +80,9 @@ for i in 1...12
     {
         print("\(i) * \(num) = \(i*num)")
     }
-}
+}*/
 
-print("ข้อ5")
+/*print("ข้อ5")
 var primeNum=2
 while primeNum < 100000
 {
@@ -100,6 +100,41 @@ while primeNum < 100000
         print(primeNum)
     }
     primeNum+=1
+}*/
+
+print("ข้อ 7")
+var score = 76
+if score <= 100 && score>=80
+{
+    print("A")
+}
+if score <= 79 && score>=75
+{
+    print("B+")
+}
+if score <= 74 && score>=70
+{
+    print("B")
+}
+if score <= 69 && score>=65
+{
+    print("C+")
+}
+if score <= 64 && score>=60
+{
+    print("C")
+}
+if score <= 59 && score>=55
+{
+    print("D+")
+}
+if score <= 59 && score>=55
+{
+    print("D")
+}
+if score < 50
+{
+    print("F")
 }
 
 
