@@ -136,5 +136,10 @@ if score < 50
 {
     print("F")
 }
+if score > 100 && score < 0
+{
+    print("Error, score isn’t corrected.")
+}
+
 
 
